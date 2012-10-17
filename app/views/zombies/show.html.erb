@@ -1,0 +1,7 @@
+<h1><%= @zombie.name %>'s Tweets</h1>
+
+<% @zombie.tweets.each do |tweet| %>
+<ul>
+	<li><%= tweet.status %></li>
+</ul>
+<% end %>
