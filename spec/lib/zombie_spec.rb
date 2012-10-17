@@ -2,17 +2,17 @@ require "spec_helper"
 require "zombie"
 
 describe Zombie do
-	it "is named Jim" do
+	xit "is named Jim" do
 		zombie = Zombie.new
 		zombie.name.should == "Jim"
 	end
 
-	it "has no brains" do
+	xit "has no brains" do
 		zombie = Zombie.new
 		zombie.brains.should < 1
 	end
 
-	it "is hungry" do
+	xit "is hungry" do
 		zombie = Zombie.new
 		zombie.should be_hungry
 	end
